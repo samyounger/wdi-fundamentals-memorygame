@@ -1,0 +1,121 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	width: 800px;
+	margin: 0 auto;
+}
+
+nav {
+	width: 100%;
+	float: left;
+	background-color: #808080;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	background-color: #ffbf00;
+	color: white;
+	padding: 35px;
+	display: block;
+	float: left;
+}
+
+nav a:hover {
+	background-color: #ee5f3c;
+}
+
+h1 {
+	color: rgb(2, 132, 130);
+	clear: both;
+	text-align: center;
+	font-size: 50px;
+}
+
+h2 {
+	color: #ffd700;
+	text-align: left;
+	text-decoration: underline;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+p {
+	text-align: left;
+}
+
+button {
+	height: 50px;
+	margin: 10px 10px 10px 0;
+	display: block;
+}
+
+.board {
+	height: 50%;
+	width: 320px;
+	/*float: left;*/
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+}
+
+.card {
+	height: 200px;
+	width: 150px;
+	border: 1px solid black;
+	background-color: yellow;
+	border-radius: 10px;
+	float: left;
+	margin: 5px;
+}
+
+.selected {
+	background-color: transparent;
+	border: transparent;
+	transform: rotateY(360deg);
+	transition: 0.8s ease-out;
+}
+
+#winlose {
+	position: absolute;
+	top: 170px;
+	left: -70%;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+footer {
+	color: green;
+	text-align: center;
+	background-color: #808080;
+	clear: both;
+}
+
+footer p {
+	text-align: center;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+.heart {
+	width: 20px;
+	margin: 10px 10px 0 10px;
+}
+
+.name {
+	color: #9A3836;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
